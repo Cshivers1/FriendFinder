@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2>Survey Questions</h2>
+    <hr>
+
+    <h3><strong>About You</strong></h3>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required>
+
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+
+    <hr>
+
+    <h3><strong>Question1</strong></h3>
+    <h4>1. Do you like supporting local entertainment?.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+    <h3><strong>Question2</strong></h3>
+    <h4>2. Are you independent and self efficent?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+    <h3><strong>Question3</strong></h3>
+    <h4>3. Do you like to travel outside the Country?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+    <h3><strong>Question4</strong></h3>
+    <h4>4. Are you a confident person? </h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                 </select>
+
+    <h3><strong>Question5</strong></h3>
+    <h4>5. Do you workout or stay active?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                 </select>
+
+    <h3><strong>Question6</strong></h3>
+    <h4>6. Are you a go getter and self starter?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                 <option value="3">3</option>
+                     <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+    <h3><strong>Question7</strong></h3>
+    <h4>7. Do you prefer dogs over cats?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+         <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+    <h3><strong>Question8</strong></h3>
+    <h4>8. Do you like going to concerts and events?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+    <h3><strong>Question9</strong></h3>
+    <h4>9. Do you like to drink local craft beer and spirits?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                 </select>
+
+    <h3><strong>Question10</strong></h3>
+    <h4>10. Are you a foodie with an inner fat kid?</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                1</select>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+     Submit</button>
+
+    <hr>
+    <footer class="footer">
+      <div class="container">
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/cshivers1/FriendFinder">GitHub Repo</a></p>
+        </div>
+      </footer>
+
+      <script type="text/javascript">
+     $(".button").on("click", function(event) {
+      event.preventDefault();
+
+      let newProfile = [];
+
+        let name = $('#name').val().trim();
+        let photo = $('#photo').val().trim();
+
+        for (let i = 1; i <= 10; i++) {
+            let answer = parseInt($(`#question${i}`).val());
+            newProfile.push(answer);
+        }
+        console.log(newProfile);
+        let friend = {
+            name,
+            url,
+            newProfile
+        }
+        $.ajax({ 
+            method: 'POST', 
+            url: '/api/match', 
+            data:friend
+        })
+        .then(function(err,result){
+            if(err)throw err;
+            console.log('error');
+            console.log(result)
+        })
+    })
+
+
+
+</script>
+
+</html>
+  
+
+  
