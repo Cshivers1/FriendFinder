@@ -1,6 +1,6 @@
 
 
-let friendsData = require("..app/data/friendsData");
+let friendsData = require("../data/friends");
 
 module.exports = function(app) {
 
